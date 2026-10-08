@@ -288,3 +288,104 @@ Visual variation should come mainly from:
 - Small sprite changes.
 
 This allows populated environments without requiring unique animation sets for every secondary character.
+
+## 8. Asset Production Rules
+
+The asset pipeline should prioritize consistency, readability and easy collaboration.
+
+These rules apply whether assets are created with Texel Studio, manually, or by an external artist.
+
+### Palettes
+
+The project uses a shared base palette combined with secondary palettes for specific islands, characters or environments.
+
+This keeps the overall visual identity cohesive while allowing each island and Warrior to have its own recognizable color language.
+
+### Spritesheet Structure
+
+Character and enemy spritesheets should follow a consistent technical structure.
+
+Whenever possible, they should use:
+
+- The same frame size.
+- The same animation order.
+- The same directional order.
+- Consistent frame counts for equivalent animations.
+
+This makes implementation in Unity easier and reduces errors when replacing or updating assets.
+
+### Naming Convention
+
+Assets should use explicit and descriptive names.
+
+Example structure:
+
+```text
+warrior_tenerife_explore_idle_down_01.png
+warrior_lapalma_battle_skill_02.png
+enemy_slime_battle_attack_03.png
+npc_scientist_walk_left_02.png
+```
+
+Names should clearly identify:
+
+- Asset type.
+- Character or enemy.
+- Context.
+- Animation or action.
+- Direction when relevant.
+- Frame number.
+
+Consistency is more important than keeping filenames short.
+
+### Versions and Review
+
+Assets should keep visible production versions until they are approved.
+
+Example:
+
+```text
+warrior_tenerife_battle_v01.png
+warrior_tenerife_battle_v02.png
+warrior_tenerife_battle_v03.png
+```
+
+Once an asset is approved, it can be marked as the current production version.
+
+Git should still preserve the historical changes, but explicit asset versions make visual review easier during production.
+
+### External Artist Guidelines
+
+If an external artist joins the project, they may improve execution and polish while preserving the established design language.
+
+Key elements that should remain consistent include:
+
+- Character silhouette.
+- Core palette.
+- Main clothing elements.
+- Transformation identity.
+- Weapon concept.
+- Island-specific visual symbolism.
+
+Major redesigns should only happen through a deliberate design review.
+
+### AI-Assisted Assets
+
+Assets created with Texel Studio or other AI-assisted tools should be treated as provisional until they receive human review and it's human made.
+
+AI-assisted production can be used for:
+
+- Concept exploration.
+- Early production assets.
+- Placeholder assets.
+- Iteration.
+- Supporting solo development.
+
+Before an asset is considered final, it should be reviewed for:
+
+- Visual consistency.
+- Pixel accuracy.
+- Palette consistency.
+- Animation readability.
+- Cultural coherence.
+- Compatibility with the rest of the project.
