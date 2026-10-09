@@ -389,3 +389,99 @@ Before an asset is considered final, it should be reviewed for:
 - Animation readability.
 - Cultural coherence.
 - Compatibility with the rest of the project.
+
+## 9. UI Direction
+
+The user interface should combine the readability of classic JRPG menus with a slightly modernized presentation.
+
+The UI should remain visually consistent across the game and avoid unnecessary animation during the first production phase.
+
+### General UI Style
+
+The interface uses a classic JRPG foundation with modern visual touches.
+
+Key characteristics:
+
+- Rectangular menu panels.
+- Clear borders.
+- Dark or semi-transparent backgrounds.
+- Simple icon support.
+- Strong text readability.
+- Minimal interface animation.
+
+The UI should feel polished without relying on complex motion or transitions.
+
+### Combat HUD
+
+The combat HUD should permanently display:
+
+- HP.
+- Shared Spiritual Pool.
+- Individual Transformation Gauge.
+- Status effects.
+
+Turn order may still be displayed elsewhere in the battle interface, but it does not need to be part of the permanent character HUD.
+
+The priority is to keep combat information readable without overcrowding the screen.
+
+### Character Portraits
+
+Character portraits are used primarily during dialogue scenes.
+
+Portraits should be larger and more expressive than exploration sprites and can help communicate:
+
+- Emotion.
+- Personality.
+- Narrative tone.
+
+Combat UI does not require character portraits during the initial version.
+
+### Battle Command Menu
+
+Battle commands use a mixed text-and-icon layout.
+
+Commands should remain immediately readable while icons provide fast visual recognition.
+
+Main commands include:
+
+- Attack.
+- Skills.
+- Defend.
+- Item.
+- Transform.
+- Escape.
+
+The layout should preserve the clarity of a classic vertical command list while using simple icons as visual support.
+
+### Main Menu
+
+The main menu should use a simplified classic JRPG structure.
+
+Initial sections may include:
+
+- Party.
+- Skills.
+- Equipment.
+- Items.
+- Save.
+- Settings.
+
+Additional sections should only be introduced when they serve a clear gameplay purpose.
+
+The first playable version does not require every menu section to be fully implemented.
+
+### UI Visual Identity
+
+The interface should use a consistent global visual identity.
+
+UI layout and core colors should not change significantly depending on the active Warrior or island.
+
+Character and island identity should primarily come from:
+
+- Character art.
+- Environment art.
+- Effects.
+- Transformations.
+- Elemental visuals.
+
+This keeps the interface visually coherent and reduces unnecessary UI production work.
