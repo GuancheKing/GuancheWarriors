@@ -170,3 +170,92 @@ When choosing between depth and breadth during the three-month development perio
 A working basic implementation is preferred over an advanced but incomplete system.
 
 Features can be expanded after the course as part of the long-term personal project.
+
+
+## 7. Phase 1 Task Breakdown — Project Foundation
+
+### Goal
+
+Create a basic exploration prototype that allows the player to move through a small area, interact with an NPC and transition between the physical and spiritual versions of the same location.
+
+### 7.1 Project Structure
+
+- Create the initial folder structure inside `Assets`.
+- Create the first exploration scene.
+- Create a temporary test map.
+- Use placeholder sprites if final art is not available.
+- Define basic sorting and layer conventions.
+
+### 7.2 Player Movement
+
+Implement a controllable player character with:
+
+- Movement in four directions.
+- Walk.
+- Run.
+- Collision with the environment.
+
+The initial version does not require final animations.
+
+### 7.3 Camera
+
+Create a basic camera system that:
+
+- Follows the player.
+- Keeps movement readable.
+- Prevents the camera from showing areas outside the playable map when appropriate.
+
+Advanced camera effects are outside the initial scope.
+
+### 7.4 Environment Collision
+
+Create simple collision rules for:
+
+- Walls.
+- Buildings.
+- Rocks.
+- Water or inaccessible terrain.
+- Map boundaries.
+
+The goal is functionality rather than detailed level design.
+
+### 7.5 NPC Interaction
+
+Add at least one NPC that:
+
+- Can be approached by the player.
+- Detects interaction.
+- Displays a simple dialogue box.
+- Prevents accidental movement while dialogue is active.
+
+Dialogue content can be temporary.
+
+### 7.6 Physical / Spiritual World Prototype
+
+Create two versions of the same small test area:
+
+- Physical World.
+- Spiritual World.
+
+Both versions should share the same basic geometry.
+
+The spiritual version can initially be differentiated using simple temporary changes such as:
+
+- Different lighting.
+- Different color treatment.
+- Particles.
+- Small environmental changes.
+
+The transition can initially be triggered manually for testing.
+
+### 7.7 Phase 1 Completion Criteria
+
+Phase 1 is complete when the player can:
+
+1. Enter the exploration scene.
+2. Move around the map.
+3. Walk and run.
+4. Collide correctly with the environment.
+5. Interact with an NPC.
+6. Read a basic dialogue.
+7. Transition between the physical and spiritual versions of the area.
