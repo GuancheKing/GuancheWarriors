@@ -27,16 +27,18 @@ These values are provisional but should be treated as the initial production sta
 
 ## 3. Physical and Spiritual Worlds
 
-The physical and spiritual worlds share the same basic environment geometry.
+The Physical and Spiritual worlds share the same underlying environment and geometry, but their visual presentation can differ.
 
-The spiritual version of a location should remain immediately recognizable, but its atmosphere changes through:
+Depending on the area, the Spiritual state may modify:
+- Color palette
+- Lighting
+- Particles and atmospheric effects
+- Ground and wall sprites
+- Vegetation
+- Environmental props
+- Interactive objects
 
-- Different color treatment.
-- Lighting changes.
-- Particle effects.
-- Environmental overlays.
-- Spiritual visual elements.
-- Removal or alteration of normal-world details.
+Some assets may use alternate sprites or tiles in the Spiritual state while preserving the same position and general shape as their Physical counterpart.
 
 This approach allows locations to feel connected while reducing the need to create completely separate environments for both worlds.
 

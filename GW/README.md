@@ -43,6 +43,18 @@ The player may:
 
 Some spiritual areas remain accessible after being completed and can be revisited later.
 
+### World States
+
+Exploration areas use a shared map with two world states: Physical and Spiritual.
+
+The core geometry and layout remain shared between both states, while visibility, interaction, enemies, NPCs and certain environmental elements can change depending on the active state.
+
+Examples:
+- Human NPCs may only exist in the Physical state.
+- Spirits and enemies may only appear in the Spiritual state.
+- Some objects may become interactive or non-interactive depending on the state.
+- Certain paths or obstacles may behave differently between states.
+
 ### Combat Rewards
 
 ## 6. Combat
